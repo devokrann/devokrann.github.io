@@ -2,228 +2,203 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevon Kibochi</title>
+  <meta charset="utf-8">
+  <title>Kevon Kibochi</title>
 
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Devokrann's Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Devokrann">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800">
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/animate.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/devokrann-fonts/css/devokrann-fonts.min.css">
+  <link rel="stylesheet" href="plugins/bootstrap-icons/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="#" id="color-changer">
+
+  <link rel="icon" href="images/logo/k-yellow.svg" type="image/x-icon">
 </head>
 
+<!-- set class="dark" on body tag for DARK-THEME -->
+
 <body>
-    <header>
-        <nav id="navbar-main" class="navbar navbar-expand-sm fixed-top bg-white navbar-expand-sm d-flex">
-            <div class="container-sm">
-                <div class="navbar-brand">
-                    <a class="nav-link active fw-bold" href="#home">
-                        <img src="assets/img/logo/k-black.svg" alt="k" width="50px">
-                    </a>
-                </div>
-                <ul class="navbar-nav align-items-center gap-2">
-                    <li class="nav-item"><a class="nav-link fw-bold" href="kevon.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active fw-bold" href="about.html">About</a></li>
-                </ul>
+  <div class="preloader">
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+  </div>
+
+  <main class="site-wrapper">
+    <div class="pt-table">
+      <div class="pt-tablecell page-about relative">
+        <!-- .close -->
+        <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+        <!-- /.close -->
+
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+              <div class="page-title text-center mb-5">
+                <h2>About <span class="primary">me</span> <span class="title-bg">KEVON</span></h2>
+                <p>
+                  <span class="primary fw-bold">Kevon</span> is a recent campus graduate with a passion for web
+                  development. He made websites for friends and
+                  family and hired himself out as a freelancer. He hopes to channel that enthusiasm in a full time role.
+                </p>
+              </div>
             </div>
-        </nav>
-    </header>
 
-    <main>
-        <article>
-            <!-- home -->
-            <section id="#home">
-                <div class="mx-0 min-vh-100 d-flex flex-column align-items-center justify-content-center gap-5">
-                    <!-- about -->
-                    <section class="text-end" id="about">
-                        <div class="container-sm">
-                            <div class="row gx-5">
-                                <div class="col-4">
-                                    <img class="border border-dark border-1 px-0 shadow" src="assets/img/me (black).svg"
-                                        alt="" width="100%">
-                                </div>
-                                <div class="col-8 d-flex flex-column gap-3">
-                                    <h2 class="fs-3">UX/UI Designer / Web Developer</h2>
-                                    <p>
-                                        Kevon had an apprenticeship at 'Pan-Africa Media' after high school where he did
-                                        'DJI' drone
-                                        maintenance & repair. Pursued Computer Science at 'Tharaka University', where he
-                                        discovered
-                                        his passion for Web Development. He made websites for friends and family and
-                                        hired
-                                        himself
-                                        out as a freelancer. He hopes to channel that enthusiasm in a full time role.
-                                    </p>
-                                    <ul class="list-unstyled row row-cols-2 gx-5 gy-3">
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">Born: </span>
-                                            </div>
-                                            <div>10 June 2000</div>
-                                        </li>
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">Phone: </span>
-                                            </div>
-                                            <div>+254 703 510-701</div>
-                                        </li>
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">Degree: </span>
-                                            </div>
-                                            <div>B.Sc. Computer Science</div>
-                                        </li>
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">City: </span>
-                                            </div>
-                                            <div>Nairobi, Kenya</div>
-                                        </li>
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">Freelance: </span>
-                                            </div>
-                                            <div>Available</div>
-                                        </li>
-                                        <li class="d-flex align-items-center justify-content-between">
-                                            <div>
-                                                <i class="bi bi-chevron-right"></i>
-                                                <span class="fw-bold">Email: </span>
-                                            </div>
-                                            <div>kevon.kibochi@outlook.com</div>
-                                        </li>
-                                    </ul>
-                                    <p>
-                                        Highly organized and detail-oriented fresh out of campus, with a drive to exceed
-                                        expectations. Reliable with a good work ethic and the ability to quickly adapt
-                                        to new tasks and environments. Responsible with good judgment, time management,
-                                        and a flexible schedule. Looking to join the workforce to gain real-world
-                                        experience.
-                                    </p>
-                                </div>
-                            </div>
+            <div class="about-author">
+              <div class="row mb-5">
+                <div class="col-xl-6">
+                  <div class="row gy-4 mb-5">
+                    <div class="col-lg-6 col-xl-12">
+                      <div class="row flex-xl-row-reverse text-md-center">
+                        <div class="col-xl-7 text-xl-start">
+                          <img class="author-thumb col-md-9 mb-4" src="images/author.svg" alt="" width="100%">
                         </div>
-                    </section>
-
-                    <!-- skills -->
-                    <section class="w-100" id="skills">
-                        <div class="container-sm">
-                            <div class="col-12">
-                                <div class="row row-cols-4 gy-4 text-start">
-                                    <div class="col">
-                                        <h6>HTML</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>CSS</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 85%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>JavaScript</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>React.js</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Node.js</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>SQL</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Java</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 55%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Git</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Figma</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 65%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Dreamweaver</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Illustrator</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 70%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6>Photoshop</h6>
-                                        <div class="progress rounded-0" style="height: 2px;">
-                                            <div class="progress-bar bg-dark" role="progressbar" style="width: 50%;"
-                                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-xl-5 text-xl-end">
+                          <span class="primary display-1 d-none d-xl-block"><i
+                              class="bi bi-chat-right-quote"></i></span>
+                          <p>
+                            &quot; I'm a passionate designer who has been specialising in web design &amp; development,
+                            although I have experience in graphic design, branding and print projects. &quot;
+                          </p>
                         </div>
-                    </section>
+                      </div>
+                    </div>
+                    <!-- /.author-bio -->
+                    <div class="col-lg-6 col-xl-12">
+                      <div class="author-desc mb-4">
+                        <p><b>Born:</b> June 10, 2000</p>
+                        <p><b>Degree:</b> BS. Computer Science</p>
+                        <p><b>Languages:</b> English, Swahili</p>
+                        <p><b>Expertise:</b> UI/UX Design, Web Development</p>
+                        <p><b>Freelance:</b> Available</p>
+                      </div> <!-- /.author-desc -->
+                    </div>
+                  </div>
                 </div>
-            </section>
-        </article>
-    </main>
-    <footer></footer>
+                <div class="col-xl-6">
+                  <div class="section-title clear">
+                    <h3>Skills</h3>
+                  </div>
+                  <div class="skill-wrapper d-flex flex-column gap-1">
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">HTML</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="96%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">CSS <br> (Tailwind)</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="89%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">JavaScript <br> (React.js, Node.js)</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="84%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">SQL <br> (MySQL, PostgreSQL)</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="81%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">Java <br> (Spring Framework)</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="70%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">C / C ++</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="59%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">Git (GitHub)</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="67%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">Photoshop</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="73%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">Illustrator</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="85%"></div>
+                    </div> <!-- /.progress -->
+                    <div class="progress clear rounded-0 ">
+                      <div class="skill-name">Dreamweaver</div>
+                      <div class="skill-bar">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="skill-lavel" data-skill-value="93%"></div>
+                    </div> <!-- /.progress -->
+                  </div> <!-- /.skill-wrapper -->
+                </div> <!-- /.col -->
+              </div>
+            </div> <!-- /.about-author -->
+          </div> <!-- /.row -->
+        </div> <!-- /.container -->
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+        <nav class="page-nav clear">
+          <div class="container text-center">
+            <div class="row items-center justify-content-between">
+              <div class="col-sm-6 text-sm-start">
+                <span class="prev-page"><a href="welcome.html" class="link">&larr; Prev</a></span> -
+                <span class="next-page"><a href="services.html" class="link">Next &rarr;</a></span>
+              </div>
+              <div class="col-sm-6 text-sm-end">
+                <span class="copyright">Designed by <a href="https://linkedin.com/kevon-kibochi"
+                    class="link">Devokrann</a></span>
+              </div>
+            </div>
+          </div>
+          <!-- /.page-nav -->
+        </nav>
+        <!-- /.container -->
+      </div> <!-- /.pt-tablecell -->
+    </div> <!-- /.pt-table -->
+  </main> <!-- /.site-wrapper -->
+
+  <!-- Essential Scripts -->
+  <script src="plugins/jquery-2.2.4.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/jquery.nicescroll.min.js"></script>
+  <script src="plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>

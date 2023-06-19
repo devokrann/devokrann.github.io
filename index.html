@@ -2,60 +2,295 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevon Kibochi</title>
+  <meta charset="utf-8">
+  <title>Kevon Kibochi</title>
 
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Devokrann's Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Devokrann">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800">
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/animate.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/devokrann-fonts/css/devokrann-fonts.min.css">
+  <link rel="stylesheet" href="plugins/bootstrap-icons/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="#" id="color-changer">
+
+  <link rel="icon" href="images/logo/k-yellow.svg" type="image/x-icon">
 </head>
 
+<!-- set class="dark" on body tag for DARK-THEME -->
+
 <body>
-    <header>
-        <nav id="navbar-main" class="navbar fixed-top bg-white navbar-expand-sm d-flex">
-            <div class="container-sm">
-                <div class="navbar-brand">
-                    <a class="nav-link active fw-bold" href="kevon.html">
-                        <img src="assets/img/logo/k-black.svg" alt="k" width="50px">
-                    </a>
-                </div>
-                <ul class="navbar-nav align-items-center gap-2">
-                    <li class="nav-item"><a class="nav-link active fw-bold" href="kevon.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link fw-bold" href="about.html">About</a></li>
-                </ul>
+  <div class="preloader">
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+    <div class="loading-mask"></div>
+  </div>
+
+  <main class="site-wrapper">
+    <div class="pt-table">
+      <div class="pt-tablecell page-home">
+        <div class="container d-flex align-items-center py-5">
+          <div class="row justify-content-center">
+            <div class="page-title home text-center">
+              <h1 class="display-4 fw-bold"><span class="primary">KEVON</span> KIBOCHI</h1>
+              <p>
+                Hello, I'm a
+                <span id="element" class="display-6 fs-5 fw-bold" style="color: #f3a36d;"></span>
+              </p>
+              <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+              <script>
+                var typed = new Typed('#element', {
+                  strings: [
+                    'Web Designer',
+                    'Web Developer',
+                  ],
+                  typeSpeed: 75,
+                  startDelay: 1250,
+                  backSpeed: 50,
+                  smartBackspace: true,
+                  // shuffle: true,
+                  backDelay: 1250,
+                  fadeOut: false,
+                  fadeOutClass: 'typed-fade-out',
+                  fadeOutDelay: 500,
+                  loop: true,
+                  loopCount: Infinity,
+                  showCursor: true,
+                  cursorChar: ' |',
+                  autoInsertCss: true,
+                  bindInputFocusEvents: false,
+                });
+              </script>
             </div>
-        </nav>
-    </header>
-
-    <main class="text-center">
-        <article>
-            <!-- home -->
-            <section id="#home">
-                <div class="row mx-0 min-vh-100 d-flex align-items-center">
-                    <div class="col-7">
-                        <h1 class="display-4 fw-bold">Kevon Kibochi</h1>
-                        <p class="fs-3">Hello, I'm a <span class="display-6 fs-3 fw-semibold">Web Designer</span></p>
-                        <div class="row">
-                            <div class="col">
-                                <a href="#" class="link-dark p-1 fs-4"><i class="bi bi-linkedin"></i></a>
-                                <a href="#" class="link-dark p-1 fs-4"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
+            <div class="col-8 col-sm-12">
+              <div class="row align-items-center justify-content-center mt-0 gy-5 gy-md-4 gy-xl-5">
+                <div class="col-md-6 col-lg-3">
+                  <div class="hexagon-item ms-auto m-sm-auto me-md-0 m-lg-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
                     </div>
-                    <div class="col-5 px-0 align-self-end">
-                        <img src="assets/img/me (black).svg" alt="" width="100%">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
                     </div>
+                    <a href="welcome.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-dial"></i>
+                        </span>
+                        <span class="title">Welcome</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
-            </section>
-        </article>
-    </main>
-    <footer></footer>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="hexagon-item me-auto m-sm-auto ms-md-0 m-lg-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="about.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-profile-male"></i>
+                        </span>
+                        <span class="title">About</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="hexagon-item ms-auto m-sm-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="services.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-tools-2"></i>
+                        </span>
+                        <span class="title">Services</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                  <div class="hexagon-item me-auto m-sm-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="resume.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-tools"></i>
+                        </span>
+                        <span class="title">Resume</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="hexagon-item ms-auto m-sm-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="works.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-briefcase2"></i>
+                        </span>
+                        <span class="title">Works</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                  <div class="hexagon-item me-auto m-sm-auto me-md-0 m-lg-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="testimonials.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-chat"></i>
+                        </span>
+                        <span class="title">Testimonials</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                  <div class="hexagon-item ms-auto m-sm-auto ms-md-0 m-lg-auto">
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <div class="hex-item">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                    <a href="contact.html" class="hex-content">
+                      <span class="hex-content-inner">
+                        <span class="icon">
+                          <i class="tf-envelope2"></i>
+                        </span>
+                        <span class="title">Contact</span>
+                      </span>
+                      <svg viewbox="0 0 173.20508075688772 200" height="200" width="174" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                          fill="#1e2530"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <script src="assets/js/main.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+          </div> <!-- /.row -->
+        </div> <!-- /.container -->
+
+      </div> <!-- /.pt-tablecell -->
+    </div> <!-- /.pt-table -->
+  </main> <!-- /.site-wrapper -->
+
+  <!-- Essential Scripts -->
+  <script src="plugins/jquery-2.2.4.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/jquery.nicescroll.min.js"></script>
+  <script src="plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/typed.js/typed.umd.js"></script>
+
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>
