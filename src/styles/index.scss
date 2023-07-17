@@ -1,0 +1,30 @@
+@use "./colors";
+@use "./typography.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	color: colors.$secondary;
+}
+
+main {
+	border-top: 4px solid colors.$primary;
+}
+
+.ShadowText {
+	font-size: 124pt;
+	font-weight: 900;
+	letter-spacing: 8pt;
+	line-height: 96pt;
+	z-index: -10;
+	color: rgba(colors.$secondary, 0.1);
+}
+
+.BorderPrimary {
+	border: 1px solid colors.$primary;
+}
+.BorderSecondary {
+	border: 1px solid colors.$secondary;
+}

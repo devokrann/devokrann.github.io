@@ -1,0 +1,9 @@
+@use "./colors";
+
+.Link {
+	color: colors.$primary;
+}
+
+.Link:hover {
+	color: colors.$primary-hover;
+}
