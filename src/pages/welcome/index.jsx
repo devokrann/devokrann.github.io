@@ -1,22 +1,22 @@
 import React from "react";
 
 // data
-import { person } from "../../data/person";
+import data from "../../data";
+
+// assets
+import author from "../../assets/images/author.svg";
 
 export default function Welcome() {
 	return (
-		<main
-			id="Welcome"
-			className="min-h-screen flex flex-col justify-center"
-		>
-			<div className="container mx-auto px-36 flex flex-col">
-				<span className="absolute ShadowText w-6/12 uppercase">
-					Who I Am
-				</span>
-				<div className="flex flex-col gap-6 w-7/12">
-					<h1 className="uppercase text-6xl font-bold">
-						<span className="TextPrimary">{person.name.fname}</span>{" "}
-						{person.name.mname}
+		<main id="Welcome" className="MainDev">
+			<div className="container mx-auto md:text-start md:items-start lg:justify-center">
+				<span className="ShadowText">Who I Am</span>
+				<div className="flex flex-col gap-6 md:w-6/12 lg:w-8/12">
+					<h1>
+						<span className="TextPrimary">
+							{data.credentials.name.first}
+						</span>{" "}
+						{data.credentials.name.middle}
 					</h1>
 					<p>
 						Highly organized and detail-oriented with a drive to
@@ -28,12 +28,8 @@ export default function Welcome() {
 					</p>
 				</div>
 			</div>
-			<span className="absolute right-0 bottom-0 w-[70vh]">
-				<img
-					src="../../../public/images/kevon.svg"
-					alt="author"
-					width="100%"
-				/>
+			<span className="absolute right-0 bottom-0 AuthorImage md:w-7/12 lg:w-6/12 xl:w-5/12">
+				<img src={author} alt="author" width="100%" />
 			</span>
 		</main>
 	);

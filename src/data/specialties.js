@@ -1,71 +1,102 @@
-export default specialties = {
+const specialties = {
 	design: [
 		{
-			specialty: "web",
+			specialty: "web design",
 			tools: [
-				{ tool: "figma", proficiency: 60 },
-				{ tool: "dreamweaver", proficiency: 90 },
-				{ tool: "xd", proficiency: 55 },
+				{ tool: "figma", variants: null, proficiency: 60 },
+				{ tool: "dreamweaver", variants: null, proficiency: 90 },
+				{ tool: "xd", variants: null, proficiency: 55 },
 			],
 		},
 		{
-			specialty: "graphic",
+			specialty: "graphic design",
 			tools: [
-				{ tool: "photoshop", proficiency: 55 },
-				{ tool: "illustrator", proficiency: 60 },
+				{ tool: "photoshop", variants: null, proficiency: 55 },
+				{ tool: "illustrator", variants: null, proficiency: 60 },
 			],
 		},
 	],
 	development: [
 		{
-			specialty: "web",
-			languages: {
-				frontend: [
-					{ language: "html", proficiency: 96 },
-					{
-						language: "css",
-						frameworks: ["sass", "bootstrap", "tailwind"],
-						proficiency: 90,
-					},
-					{
-						language: "javascript",
-						frameworks: {
-							framework: "react",
-							subFrameworks: ["next", "remix"],
+			specialty: "web development",
+			tools: [
+				{
+					tool: "html",
+					variants: null,
+					proficiency: 96,
+				},
+				{
+					tool: "css",
+					variants: [
+						{
+							variant: "sass",
+							subvariants: null,
 						},
-						proficiency: 84,
-					},
-				],
-				backend: [
-					{
-						language: "javascript",
-						frameworks: {
-							framework: "node",
-							subFrameworks: ["express"],
+						{
+							variant: "bootstrap",
+							subvariants: null,
 						},
-						proficiency: 70,
-					},
-					{
-						language: "sql",
-						dialects: ["mysql", "postgresql"],
-						proficiency: 72,
-					},
-					{
-						language: "java",
-						frameworks: [
-							{
-								framework: "spring",
-								subFramework: ["spring boot"],
-							},
-						],
-						proficiency: 58,
-					},
-				],
-			},
+						{
+							variant: "tailwind",
+							subvariants: null,
+						},
+					],
+					proficiency: 90,
+				},
+				{
+					tool: "javascript",
+					variants: [
+						{
+							variant: "react",
+							subvariants: ["next", "remix"],
+						},
+					],
+					proficiency: 84,
+				},
+				{
+					tool: "javascript",
+					variants: [
+						{
+							variant: "node",
+							subvariants: ["express"],
+						},
+					],
+					proficiency: 70,
+				},
+				{
+					tool: "sql",
+					variants: [
+						{
+							variant: "mysql",
+							subvariants: null,
+						},
+						{
+							variant: "postgresql",
+							subvariants: null,
+						},
+					],
+					proficiency: 72,
+				},
+				{
+					tool: "java",
+					variants: [
+						{
+							variant: "spring",
+							subvariants: ["spring boot"],
+						},
+					],
+					proficiency: 58,
+				},
+			],
 		},
 	],
+	sourceControl: [
+		{ specialty: "git", tools: [{ tool: "github", proficiency: 63 }] },
+	],
 	linguistics: [
-		{ language: "english", proficiency: "fluent" },
-		{ language: "swahili", proficiency: "proficient" },
+		{ specialty: "english", variants: null, proficiency: "fluent" },
+		{ specialty: "swahili", variants: null, proficiency: "proficient" },
 	],
 };
+
+export default specialties;

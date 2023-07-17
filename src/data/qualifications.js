@@ -1,31 +1,38 @@
-export default qualifications = {
+const qualifications = {
 	education: {
 		certificates: {
-			academic: [
-				{
-					certificate:
-						"Kenya Certificate of Primary Education (KCPE)",
-					doi: { month: 11, year: 2014 },
-					poi: "Lizar Junior",
-				},
-				{
-					certificate:
-						"Kenya Certificate of Secondary Education (KCSE)",
-					doi: { month: 11, year: 2018 },
-					poi: "Consolata",
-				},
-			],
+			academic: {
+				traditional: [
+					{
+						certificate:
+							"Kenya Certificate of Primary Education (KCPE)",
+						field: null,
+						doi: { month: 11, year: 2014 },
+						poi: "Lizar Junior",
+					},
+					{
+						certificate:
+							"Kenya Certificate of Secondary Education (KCSE)",
+						field: null,
+						doi: { month: 11, year: 2018 },
+						poi: "Consolata",
+					},
+				],
+				online: [
+					{
+						certificate: "Online",
+						field: null,
+						doi: { month: 11, year: 2014 },
+						poi: null,
+					},
+				],
+			},
 			extracurricular: [
 				{
 					certificate: "Extra",
+					field: null,
 					doi: { month: 11, year: 2014 },
-					poi: "",
-				},
-			],
-			online: [
-				{
-					certificate: "Online",
-					doi: { month: 11, year: 2014 },
+					poi: null,
 				},
 			],
 		},
@@ -38,8 +45,8 @@ export default qualifications = {
 					poi: "Tharaka",
 				},
 			],
-			masters: [],
-			phd: [],
 		},
 	},
 };
+
+export default qualifications;
