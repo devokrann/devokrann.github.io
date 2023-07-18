@@ -1,0 +1,9 @@
+@use "./colors";
+
+.ProgressDev {
+	background-color: colors.$secondary;
+}
+
+.ProgressInnerDev {
+	background-color: colors.$primary;
+}

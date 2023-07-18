@@ -7,10 +7,8 @@ import SlabDev from "../components/compound/slab";
 import {
 	SparklesIcon,
 	UserIcon,
-	WrenchScrewdriverIcon,
 	DocumentTextIcon,
 	PresentationChartLineIcon,
-	ChatBubbleLeftRightIcon,
 	EnvelopeOpenIcon,
 } from "@heroicons/react/24/solid";
 
@@ -49,8 +47,8 @@ export default function Home() {
 						</span>
 					</p>
 				</div>
-				<div className="flex flex-col items-center gap-3">
-					<ul className="grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-12 lg:grid-cols-6 lg:gap-16">
+				<div className="flex flex-col items-center gap-8 sm:gap-4 md:gap-6">
+					<ul className="grid grid-cols-1 gap-8 sm:grid-cols-3 md:gap-12 lg:gap-16">
 						<li>
 							<SlabDev path="welcome">
 								<SparklesIcon width={20} height={20} />
@@ -64,17 +62,13 @@ export default function Home() {
 							</SlabDev>
 						</li>
 						<li>
-							<SlabDev path="services">
-								<WrenchScrewdriverIcon width={20} height={20} />
-								Services
-							</SlabDev>
-						</li>
-						<li>
 							<SlabDev path="resume">
 								<DocumentTextIcon width={20} height={20} />
 								Resume
 							</SlabDev>
 						</li>
+					</ul>
+					<ul className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:gap-12 lg:gap-16">
 						<li>
 							<SlabDev path="portfolio">
 								<PresentationChartLineIcon

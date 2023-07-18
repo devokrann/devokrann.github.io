@@ -13,8 +13,6 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import Resume from "./pages/resume";
-import Services from "./pages/services";
-import Testimonials from "./pages/testimonials";
 import Welcome from "./pages/welcome";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -26,8 +24,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/portfolio" element={<Portfolio />} />
 				<Route path="/resume" element={<Resume />} />
-				<Route path="/services" element={<Services />} />
-				<Route path="/testimonials" element={<Testimonials />} />
 				<Route path="/welcome" element={<Welcome />} />
 				{/* <Route path="*" element={<NotFound/>}/> */}
 			</Routes>

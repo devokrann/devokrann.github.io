@@ -1,0 +1,9 @@
+@use "./colors";
+
+.BackgroundPrimary {
+	background-color: colors.$primary;
+}
+
+.BackgroundSecondary {
+	background-color: colors.$secondary;
+}

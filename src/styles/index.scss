@@ -1,4 +1,5 @@
 @use "./colors";
+@use "./backgrounds.scss";
 @use "./typography.scss";
 
 @tailwind base;
@@ -39,7 +40,7 @@
 	margin: 5vh 0;
 
 	@media (min-width: 320px) {
-		padding: 0 2vw;
+		padding: 0 5vw;
 	}
 
 	@media (min-width: 2560px) {
@@ -55,7 +56,7 @@ h1 {
 }
 
 body {
-	font-size: calc(12pt + 0.25vw);
+	font-size: calc(9pt + 0.3vw);
 }
 
 .MainDev {
@@ -66,13 +67,19 @@ body {
 }
 
 .AuthorImage {
-	width: 100vw;
-
 	@media (min-width: 480px) {
 		width: 90vw;
 	}
 
+	@media (min-width: 520px) {
+		width: 80vw;
+	}
+
 	@media (min-width: 576px) {
 		width: 70vw;
+	}
+
+	@media (min-width: 620px) {
+		width: 60vw;
 	}
 }

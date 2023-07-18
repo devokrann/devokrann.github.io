@@ -3,8 +3,8 @@ const specialties = {
 		{
 			specialty: "web design",
 			tools: [
-				{ tool: "figma", variants: null, proficiency: 60 },
 				{ tool: "dreamweaver", variants: null, proficiency: 90 },
+				{ tool: "figma", variants: null, proficiency: 60 },
 				{ tool: "xd", variants: null, proficiency: 55 },
 			],
 		},
@@ -50,18 +50,12 @@ const specialties = {
 							variant: "react",
 							subvariants: ["next", "remix"],
 						},
-					],
-					proficiency: 84,
-				},
-				{
-					tool: "javascript",
-					variants: [
 						{
 							variant: "node",
 							subvariants: ["express"],
 						},
 					],
-					proficiency: 70,
+					proficiency: 84,
 				},
 				{
 					tool: "sql",
@@ -91,7 +85,21 @@ const specialties = {
 		},
 	],
 	sourceControl: [
-		{ specialty: "git", tools: [{ tool: "github", proficiency: 63 }] },
+		{
+			specialty: "source control",
+			tools: [
+				{
+					tool: "git",
+					variants: [
+						{
+							variant: "github",
+							subvariants: null,
+						},
+					],
+					proficiency: 58,
+				},
+			],
+		},
 	],
 	linguistics: [
 		{ specialty: "english", variants: null, proficiency: "fluent" },
