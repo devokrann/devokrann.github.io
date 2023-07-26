@@ -7,6 +7,7 @@ import {
 	DocumentArrowDownIcon,
 } from "@heroicons/react/24/solid";
 import data from "../../data";
+import NavFooter from "../../components/compound/NavFooter";
 
 export default function Portfolio() {
 	return (
@@ -120,6 +121,7 @@ export default function Portfolio() {
 					</div>
 				</div>
 			</div>
+			<NavFooter prev="/resume" next="/contact" />
 		</main>
 	);
 }

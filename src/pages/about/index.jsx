@@ -11,6 +11,7 @@ import data from "../../data/index";
 
 // assets
 import author from "../../assets/images/author.svg";
+import NavFooter from "../../components/compound/NavFooter";
 
 export default function About() {
 	return (
@@ -183,6 +184,7 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+			<NavFooter prev="/welcome" next="/resume" />
 		</main>
 	);
 }

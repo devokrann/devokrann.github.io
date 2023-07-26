@@ -5,6 +5,7 @@ import data from "../../data";
 
 // icons
 import { DocumentTextIcon } from "@heroicons/react/24/solid";
+import NavFooter from "../../components/compound/NavFooter";
 
 export default function Resume() {
 	return (
@@ -115,6 +116,7 @@ export default function Resume() {
 					</div>
 				</div>
 			</div>
+			<NavFooter prev="/about" next="/portfolio" />
 		</main>
 	);
 }
