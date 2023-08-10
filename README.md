@@ -1,4 +1,2 @@
-# devokrann.github.io
-My Portfolio
-
-This repository contains the project files for my portfolio website.
+# My Portfolio
+This repository holds the project files for my portfolio website

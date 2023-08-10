@@ -1,0 +1,60 @@
+/*
+ * Selection color
+ */
+::-moz-selection {
+	background-color: #f3a36d;
+}
+
+::selection {
+	background-color: #f3a36d;
+}
+
+/* background color */
+.btn-primary,
+.loading-mask,
+.section-title h3::after,
+.hexagon-item:hover .hex-item div::before,
+.hexagon-item:hover .hex-item div::after,
+.progress .bar,
+.contact-social li:hover span {
+	background-color: #f3a36d;
+}
+
+.nicescroll-cursors {
+	background: #f3a36d !important;
+}
+
+/* color */
+.primary,
+.link:hover,
+.filter .active,
+.works-item h4,
+.msg-success {
+	color: #f3a36d;
+}
+
+/* border color */
+.testimonials .owl-dot.active {
+	border-color: #f3a36d;
+}
+
+/* border top color */
+.site-wrapper,
+.contact-social li:hover span::after,
+.contact-social-hex:hover::before {
+	border-top-color: #f3a36d;
+}
+
+/* border bottom color */
+.filter .active,
+.contact-social li:hover span::before,
+.contact-social-hex:hover::after {
+	border-bottom-color: #f3a36d;
+}
+
+/* fill color */
+.service-hex:hover .fill,
+.service-hex:hover .st1 {
+	fill: #f3a36d;
+}
+/*# sourceMappingURL=red.css.map */
