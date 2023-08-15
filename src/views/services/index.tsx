@@ -4,7 +4,7 @@ import { Container, Grid } from "@mantine/core";
 // components
 import Main from "../../components/main";
 import ContentMain from "../../components/contentMain";
-import CompCard from "../../components/card";
+import CardServices from "../../components/cards/cardServices";
 
 //data
 import services from "../../data/services";
@@ -15,7 +15,18 @@ export default function Services() {
 			<Main>
 				<Container>
 					<ContentMain heading={"Services"}>
-						<Grid>{services.map((item) => {})}</Grid>
+						<Grid justify="center" grow>
+							{services.map((service, key) => (
+								<Grid.Col span={4}>
+									<CardServices
+										key={key}
+										icon={service.icon}
+										service={service.service}
+										description={service.description}
+									/>
+								</Grid.Col>
+							))}
+						</Grid>
 					</ContentMain>
 				</Container>
 			</Main>

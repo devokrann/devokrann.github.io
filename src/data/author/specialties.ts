@@ -4,7 +4,7 @@ const specialties = {
 			specialty: "web design",
 			tools: [
 				{ tool: "dreamweaver", variants: null, proficiency: 90 },
-				{ tool: "figma", variants: null, proficiency: 60 },
+				{ tool: "figma", variants: null, proficiency: 62 },
 				{ tool: "xd", variants: null, proficiency: 55 },
 			],
 		},
@@ -31,14 +31,17 @@ const specialties = {
 						{
 							variant: "sass",
 							subvariants: null,
-						},
-						{
-							variant: "bootstrap",
-							subvariants: null,
+							proficiency: 88,
 						},
 						{
 							variant: "tailwind",
 							subvariants: null,
+							proficiency: 84,
+						},
+						{
+							variant: "bootstrap",
+							subvariants: null,
+							proficiency: 80,
 						},
 					],
 					proficiency: 90,
@@ -49,10 +52,12 @@ const specialties = {
 						{
 							variant: "react",
 							subvariants: ["next", "remix"],
+							proficiency: 82,
 						},
 						{
 							variant: "node",
 							subvariants: ["express"],
+							proficiency: 78,
 						},
 					],
 					proficiency: 84,
@@ -63,10 +68,12 @@ const specialties = {
 						{
 							variant: "mysql",
 							subvariants: null,
+							proficiency: 68,
 						},
 						{
 							variant: "postgresql",
 							subvariants: null,
+							proficiency: 64,
 						},
 					],
 					proficiency: 72,
@@ -75,8 +82,9 @@ const specialties = {
 					tool: "java",
 					variants: [
 						{
-							variant: "spring",
+							variant: "spring boot",
 							subvariants: ["spring boot"],
+							proficiency: 58,
 						},
 					],
 					proficiency: 58,
@@ -94,9 +102,10 @@ const specialties = {
 						{
 							variant: "github",
 							subvariants: null,
+							proficiency: 68,
 						},
 					],
-					proficiency: 58,
+					proficiency: 70,
 				},
 			],
 		},
