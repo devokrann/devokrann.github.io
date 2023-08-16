@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./home";
 import Services from "./services";
 import Skills from "./skills";
-import Experience from "./experience";
+import History from "./history";
 import Contact from "./contact";
 
 // components
@@ -31,7 +31,7 @@ export default function App() {
 						<Route path="/" element={<Home />} />
 						<Route path="/services" element={<Services />} />
 						<Route path="/skills" element={<Skills />} />
-						<Route path="/experience" element={<Experience />} />
+						<Route path="/history" element={<History />} />
 						<Route path="/contact" element={<Contact />} />
 					</Routes>
 					<Footer />

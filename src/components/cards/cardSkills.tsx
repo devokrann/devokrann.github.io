@@ -32,9 +32,6 @@ const useStyles = createStyles((theme) => ({
 		fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 		lineHeight: 1,
 	},
-	progress: {
-		color: theme.colors.primary[3],
-	},
 }));
 
 interface typeCardSkills {
@@ -85,7 +82,7 @@ export function CardSkills({ icon, skill, proficiency }: typeCardSkills) {
 				</Text>
 			</Group>
 
-			<Progress value={proficiency} mt={5} className={classes.progress} />
+			<Progress value={proficiency} mt={5} color={"#f1975a"} size={2} />
 
 			{/* <Group position="apart" mt="md">
 				<Text fz="sm">20 / 36 km</Text>

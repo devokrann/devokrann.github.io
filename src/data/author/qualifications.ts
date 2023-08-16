@@ -3,25 +3,17 @@ const qualifications = {
 		academic: {
 			traditional: [
 				{
-					qualification:
-						"Kenya Certificate of Primary Education (KCPE)",
-					field: null,
+					qualification: "Kenya Certificate of Primary Education",
+					field: "KCPE",
 					doi: { month: 11, year: 2014 },
-					period: {
-						from: { month: 1, year: 2013 },
-						to: { month: 11, year: 2014 },
-					},
+					period: "Jan 2013 - Nov 2014",
 					poi: "Lizar School",
 				},
 				{
-					qualification:
-						"Kenya Certificate of Secondary Education (KCSE)",
-					field: null,
+					qualification: "Kenya Certificate of Secondary Education",
+					field: "KCSE",
 					doi: { month: 11, year: 2018 },
-					period: {
-						from: { month: 1, year: 2015 },
-						to: { month: 11, year: 2018 },
-					},
+					period: "Jan 2015 - Nov - 2018",
 					poi: "Consolata School",
 				},
 			],
@@ -49,10 +41,7 @@ const qualifications = {
 				qualification: "Bachelor of Science",
 				field: "Computer Science",
 				doi: { month: 9, year: 2023 },
-				period: {
-					from: { month: 9, year: 2019 },
-					to: { month: 4, year: 2023 },
-				},
+				period: "Sept 2019 - Apr 2023",
 				poi: "Tharaka University",
 			},
 		],

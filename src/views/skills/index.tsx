@@ -1,5 +1,5 @@
 // ui
-import { Container, Grid, Col } from "@mantine/core";
+import { Container, Grid } from "@mantine/core";
 
 // components
 import Main from "../../components/main";
