@@ -87,7 +87,7 @@ export default function Home() {
 								></ReactTyped>
 							</p>
 						</Flex>
-						<Center miw={{ base: "25vw", sm: "15vw" }}>
+						<Center miw={{ base: "25vw", sm: "15vw" }} mb={"xl"}>
 							<img
 								className={classes.author}
 								src={author}
