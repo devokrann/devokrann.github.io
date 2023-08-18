@@ -17,7 +17,7 @@ export default function Skills() {
 					<ContentMain heading={"Skills"}>
 						<Grid>
 							{skills.map((item, key) => (
-								<Grid.Col span={3} key={key}>
+								<Grid.Col xs={12} sm={6} md={4} key={key}>
 									<CardSkills
 										icon={item.icon}
 										skill={item.skill}

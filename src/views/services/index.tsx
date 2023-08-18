@@ -15,11 +15,10 @@ export default function Services() {
 			<Main>
 				<Container>
 					<ContentMain heading={"Services"}>
-						<Grid justify="center" grow>
+						<Grid justify="center">
 							{services.map((service, key) => (
-								<Grid.Col span={4}>
+								<Grid.Col xs={12} sm={6} md={4} key={key}>
 									<CardServices
-										key={key}
 										icon={service.icon}
 										service={service.service}
 										description={service.description}

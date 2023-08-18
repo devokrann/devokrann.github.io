@@ -60,19 +60,43 @@ export function Footer() {
 					position="right"
 					noWrap
 				>
-					<ActionIcon size="lg">
+					<ActionIcon
+						size="lg"
+						component="a"
+						href="https://linkedin.com/in/kevon-kibochi"
+					>
 						<IconBrandLinkedin size="1.05rem" stroke={1.5} />
 					</ActionIcon>
-					<ActionIcon size="lg">
+					<ActionIcon
+						size="lg"
+						component="a"
+						href="https://github.com/devokrann"
+						target="_blank"
+					>
 						<IconBrandGithub size="1.05rem" stroke={1.5} />
 					</ActionIcon>
-					<ActionIcon size="lg">
+					<ActionIcon
+						size="lg"
+						component="a"
+						href="https://www.behance.net/devokrann/"
+						target="_blank"
+					>
 						<IconBrandBehance size="1.05rem" stroke={1.5} />
 					</ActionIcon>
-					<ActionIcon size="lg">
+					<ActionIcon
+						size="lg"
+						component="a"
+						href="https://dribbble.com/devokrann/"
+						target="_blank"
+					>
 						<IconBrandDribbble size="1.05rem" stroke={1.5} />
 					</ActionIcon>
-					<ActionIcon size="lg">
+					<ActionIcon
+						size="lg"
+						component="a"
+						href="https://leetcode.com/Devokrann/"
+						target="_blank"
+					>
 						<IconBrandLeetcode size="1.05rem" stroke={1.5} />
 					</ActionIcon>
 				</Group>

@@ -10,6 +10,7 @@ import history from "../../data/history";
 const useStyles = createStyles((theme) => ({
 	heading: {
 		borderBottom: `1px solid ${theme.colors.gray[2]}`,
+		paddingBottom: theme.spacing.xs,
 	},
 }));
 
@@ -21,7 +22,7 @@ export default function History() {
 				<Container>
 					<ContentMain heading={"History"}>
 						<Grid>
-							<Grid.Col span={6}>
+							<Grid.Col xs={12} sm={6}>
 								<Text
 									fw={700}
 									fz={"xl"}
@@ -31,7 +32,7 @@ export default function History() {
 								</Text>
 								<FeatureExp data={history.education} />
 							</Grid.Col>
-							<Grid.Col span={6}>
+							<Grid.Col xs={12} sm={6}>
 								<Text
 									fw={700}
 									fz={"xl"}

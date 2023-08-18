@@ -1,4 +1,4 @@
-import { createStyles } from "@mantine/core";
+import { createStyles, Flex } from "@mantine/core";
 import React from "react";
 
 const useStyles = createStyles((theme) => ({
@@ -13,9 +13,13 @@ const useStyles = createStyles((theme) => ({
 export default function ContentMain({ heading, children }: any) {
 	const { classes } = useStyles();
 	return (
-		<div className={classes.root}>
+		<Flex
+			direction={"column"}
+			align={{ base: "center", sm: "start" }}
+			className={classes.root}
+		>
 			<h1>{heading}</h1>
 			{children}
-		</div>
+		</Flex>
 	);
 }

@@ -1,5 +1,5 @@
 // ui
-import { Container, createStyles, Flex } from "@mantine/core";
+import { Center, Container, createStyles, Flex } from "@mantine/core";
 
 // components
 import Main from "../../components/main";
@@ -43,14 +43,21 @@ export default function Home() {
 		<div>
 			<Main>
 				<Container>
-					<Flex align={"center"} justify={"space-between"}>
-						<div>
+					<Flex
+						direction={{ base: "column", sm: "row" }}
+						align={"center"}
+						justify={{ base: "center", sm: "space-between" }}
+						gap={"md"}
+					>
+						<Flex
+							direction={"column"}
+							align={{ base: "center", sm: "start" }}
+						>
 							<h1 className={classes.heading}>
 								<span className={classes.greeting}>
-									Hello,
+									Hello, I'm
 									<br />
 								</span>{" "}
-								I'm{" "}
 								<span className={classes.name}>
 									Kevon Kibochi
 								</span>
@@ -79,13 +86,15 @@ export default function Home() {
 									cursorChar=" _"
 								></ReactTyped>
 							</p>
-						</div>
-						<img
-							className={classes.author}
-							src={author}
-							alt="Kevon"
-							width={"40%"}
-						/>
+						</Flex>
+						<Center miw={{ base: "25vw", sm: "15vw" }}>
+							<img
+								className={classes.author}
+								src={author}
+								alt="Kevon"
+								width={"100%"}
+							/>
+						</Center>
 					</Flex>
 				</Container>
 			</Main>
