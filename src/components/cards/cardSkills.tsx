@@ -5,11 +5,9 @@ import {
 	Progress,
 	Text,
 	Group,
-	Badge,
 	Paper,
 	rem,
 } from "@mantine/core";
-import { IconSwimming } from "@tabler/icons-react";
 
 const ICON_SIZE = rem(60);
 

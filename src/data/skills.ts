@@ -4,7 +4,6 @@ import {
 	IconBrandFigma,
 	IconBrandGit,
 	IconBrandHtml5,
-	IconBrandJavascript,
 	IconBrandMysql,
 	IconBrandNodejs,
 	IconBrandReact,

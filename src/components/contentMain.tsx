@@ -1,5 +1,4 @@
 import { createStyles, Flex } from "@mantine/core";
-import React from "react";
 
 const useStyles = createStyles((theme) => ({
 	root: {
@@ -10,7 +9,7 @@ const useStyles = createStyles((theme) => ({
 	},
 }));
 
-export default function ContentMain({ heading, children }: any) {
+export default function ContentMain({ heading, children }) {
 	const { classes } = useStyles();
 	return (
 		<Flex

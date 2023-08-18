@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
 	TextInput,
 	Textarea,
@@ -47,24 +47,24 @@ export default function ContactMain() {
 		if (form.isValid()) {
 			setSubmitted(!submitted);
 
-			// await emailjs
-			// 	.sendForm(
-			// 		"contact_form",
-			// 		"contact_form",
-			// 		event.target,
-			// 		"L0fxLHlUqAgwXsBD8"
-			// 	)
-			// 	.then(
-			// 		(result) => {
-			// 			console.log(result.text);
-			// 			alert("Message sent. Kevon will be in touch.");
-			// 			form.reset();
-			// 			setSubmitted(false);
-			// 		},
-			// 		(error) => {
-			// 			console.log(error.text);
-			// 		}
-			// 	);
+			await emailjs
+				.sendForm(
+					"contact_form",
+					"contact_form",
+					event.target,
+					"L0fxLHlUqAgwXsBD8"
+				)
+				.then(
+					(result) => {
+						console.log(result.text);
+						alert("Message sent. Kevon will be in touch.");
+						form.reset();
+						setSubmitted(false);
+					},
+					(error) => {
+						console.log(error.text);
+					}
+				);
 		}
 	};
 
